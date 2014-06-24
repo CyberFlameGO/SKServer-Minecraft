@@ -1,0 +1,3 @@
+&7Bienvenido a SKSERVER {PLAYER}&6!
+&7Autor: &4@50l3r&6!
+&7Usuarios online:&2 {ONLINE} &7- Horario virtual:&2 {WORLDTIME12}

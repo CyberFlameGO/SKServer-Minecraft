@@ -1,0 +1,8 @@
+# 
+#  AnbuChat v13.3 hecho por alfa5, modificado por mjl1010.
+#  Esta es la configuración básica del plugin para establecer ciertos parametros, no se permite la modificación de mensajes.
+
+AnbuChat:
+  Radio: 100.0
+  Debug: false
+  Comercio: true

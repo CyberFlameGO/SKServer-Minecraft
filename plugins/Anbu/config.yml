@@ -1,0 +1,16 @@
+Anbu:
+  PVP: true
+  SpawnOnLogin: true
+  Debug: false
+  GrupoMinimo: 0
+  MensajeEntrada: 70
+  mantenimiento:
+    activo: false
+    msg: MENSAJE DE MANTENIMIENTO
+Skimdoo:
+  DBName: skserver
+  DBServer: localhost
+  DBPort: '3306'
+  DBUser: root
+  DBPass: ''
+  MineServer: '1'

@@ -1,0 +1,183 @@
+users:
+  TUUSUARIO:
+    group:
+    - admin
+    - editor
+groups:
+  usuario:
+    default: true
+    options:
+      rank: '1000'
+    permissions:
+    - anbu.tnt
+    - anbu.pvp.change
+    - anbu.pvp.estado
+    - iConomy.access
+    - iConomy.payment
+    - dynmap.hide.self
+    - dynmap.show.self
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.afk
+    - essentials.home
+    - essentials.sethome
+    - essentials.delhome
+    - essentials.suicide
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.msg
+    - essentials.rules
+    - essentials.ignore
+    - essentials.spawn
+    - bukkit.broadcast.user
+    - dynmap.webchat
+    - dynmap.webregister
+    - dynmap.hide.self
+    - dynmap.show.self
+    - shop.use
+    - shop.create
+    - shop.destroy
+    worlds:
+      world:
+        permissions:
+        - residence.create
+      world_nether:
+        permissions:
+        - -residence.create
+      world_the_end:
+        permissions:
+        - -residence.create
+  vip:
+    default: false
+    prefix: '&6[VIP] '
+    inheritance:
+    - usuario
+    options:
+      rank: '900'
+    permissions:
+    - anbu.lleno
+    - anbu.vip
+    - MyPet.user.*
+    - MyPet.custom.skilltree.ecualiano
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.sethome.multiple.vip
+    - essentials.afk.kickexempt    
+    - essentials.keepxp
+    - essentials.hat
+    - essentials.signs.color
+  gm:
+    default: false
+    prefix: '&2[GM] '
+    inheritance:
+    - vip
+    options:
+      rank: '800'
+    permissions:
+    - buttonwarp.admin
+    - essentials.give
+    - buttonwarp.create
+    - villagershop.admin
+    - anbu.mantenimiento.*
+    - anbu.congelar
+    - anbu.gm
+    - anbu.helpop
+    - bukkit.command.gamemode
+    - bukkit.command.ban.player
+    - bukkit.command.unban.player
+    - bukkit.command.kick
+    - essentials.ban
+    - essentials.unban
+    - essentials.kick
+    - essentials.kickall
+    - essentials.tempban
+    - essentials.enderchest
+    - essentials.enderchest.modify
+    - essentials.enderchest.others
+    - essentials.invsee
+    - essentials.list.hidden
+    - essentials.socialspy
+    - essentials.teleport.hidden
+    - essentials.vanish.see
+    - hooks.essentials
+    - iConomy.*
+    - MyPet.admin
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.msg.url
+    - essentials.chat.url
+    - essentials.broadcast
+    - essentials.clearinventory
+    - essentials.bigtree
+    - essentials.deljail
+    - essentials.spawn
+    - essentials.setspawn
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.spawnmob
+    - essentials.spawnmob.*
+    - essentials.gamemode
+    - essentials.gc
+    - essentials.getpos
+    - essentials.god
+    - essentials.heal
+    - essentials.teleport.timer.bypass
+    - essentials.helpop.receive
+    - essentials.info
+    - essentials.item
+    - essentials.jails
+    - essentials.seen
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.mute
+    - essentials.mute.exempt
+    - essentials.near
+    - essentials.sethome.multiple.staff
+    - essentials.setjail
+    - essentials.top
+    - essentials.tp
+    - essentials.tphere
+    - essentials.togglejail
+    - essentials.tppos
+    - essentials.tree
+    - essentials.vanish
+    - essentials.whois
+    - hooks.essentials
+    - shop.operator
+    - residence.admin
+  editor:
+    default: false
+    options:
+      rank: '750'
+    permissions:
+    - worldedit.*
+  admin:
+    default: false
+    prefix: '&4[Admin] '
+    inheritance:
+    - gm
+    options:
+      rank: '500'
+    permissions:
+    - essentials.essentials
+    - permissions.debug
+    - permissions.manage.*
+    - essentials.tpall
+    - bukkit.command.op
+    - bukkit.command.op.give
+    - bukkit.command.op.take
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.save.perform
+    - bukkit.command.stop
+    - bukkit.command.version
+    - dynmap.*
+    - essentials.item
+    - hooks.essentials
